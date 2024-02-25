@@ -1,0 +1,13 @@
+model	aggregation	precision	recall	f1-score	support	
+game description	macro avg	0.21870	0.14101	0.14466	3939
+game description	weighted avg	0.31312	0.16629	0.17454	3939
+game description no player not response	macro avg	0.21457	0.14247	0.13741	3939
+game description no player not response	weighted avg	0.29988	0.16882	0.16354	3939
+game description no_players	macro avg	0.20801	0.15521	0.13771	3939
+game description no_players	weighted avg	0.29385	0.17898	0.15934	3939
+no game description	macro avg	0.21164	0.16940	0.13766	3939
+no game description	weighted avg	0.29970	0.19624	0.15653	3939
+no_players_no_next_text_no_description	macro avg	0.22186	0.16347	0.15036	3939
+no_players_no_next_text_no_description	weighted avg	0.31241	0.19548	0.18180	3939
+no_players_no_next_text_no_description_examples	macro avg	0.24095	0.15633	0.15412	3939
+no_players_no_next_text_no_description_examples	weighted avg	0.33025	0.18380	0.18239	3939
