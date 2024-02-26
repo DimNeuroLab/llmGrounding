@@ -12,6 +12,7 @@ CONFIG = {
 def get_turns_and_labels(n_context_samples):
     x_data = []
     y_data = []
+
     data = pd.read_csv('incoming_base_spect.csv', encoding='latin1')
     dialogue_nums = np.unique(data['dialogue_num'].to_numpy())
     for dialogue_num in dialogue_nums[:CONFIG['NUM_TURNS_TO_CLASSIFY']]:
@@ -44,7 +45,7 @@ if __name__ == '__main__':
     for y in y_data:
         count[y[2]] = count.get(y[2], {})
         count_ind[y[2]] = count_ind.get(y[2], 0)
-    
+
     for idx in range(len(y_data)-1):
         dialogue_act_curr = y_data[idx][2]
         dialogue_act_next = y_data[idx+1][2]
@@ -57,6 +58,10 @@ if __name__ == '__main__':
         for dialogue_act_next in count:
             if dialogue_act_next != 'Other':  # Exclude transitions to 'Other'
                 count[dialogue_act_curr].setdefault(dialogue_act_next, 0)
+        print("dialogue_act_curr",dialogue_act_curr)
+        print(count[dialogue_act_curr])
+        print(count[dialogue_act_curr].values())
+        print('sum',sum(count[dialogue_act_curr].values()))
         count[dialogue_act_curr]['Other'] = sum(count[dialogue_act_curr].values()) - count[dialogue_act_curr].get(dialogue_act_curr, 0)
 
     # Update count_ind for 'Other' dialogue act

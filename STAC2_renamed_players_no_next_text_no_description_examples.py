@@ -141,8 +141,11 @@ def parse_response(response):
 
 def build_prompt(input_sample):
     dialogue = ''
+    playersmap={}
     for context in input_sample:
-        dialogue += context[1] + '\n' # context[0] + ': ' + context[1] + '\n'
+        playersmap[context[0]]=playersmap.get(context[0],'player_'+str(len(playersmap)))
+        dialogue += playersmap[context[0]] + ': ' + context[1] + '\n'
+
     prompt = f"""I will give you a dialogue from a game of Settlers of Catan, you will need to continue it with 1 possible utterance from 1 player, and 1 class.
      
     The admissible types of utterances, with definition and examples are:\n
@@ -168,7 +171,7 @@ def write_results_to_file(y_true, y_pred, y_true_parsed, y_pred_parsed):
     ts = str(time.time()).split('.')[0]
     n_turns = str(CONFIG['NUM_TURNS_TO_CLASSIFY'])
     n_context = str(CONFIG['NUM_CONTEXT_SAMPLES'])
-    with open('no_players_no_text_no_description_examples_n_turns_' + n_turns + '_n_context_' + n_context +'_' + ts + '.tsv', 'w') as out_file:
+    with open('renamed_players_no_text_no_description_examples_n_turns_' + n_turns + '_n_context_' + n_context +'_' + ts + '.tsv', 'w') as out_file:
         out_file.write('true_act\tpred_act\ttrue_turn\tpred_turn\n')
         for idx, y_t in enumerate(y_true_parsed):
             out_file.write(y_t+'\t')
