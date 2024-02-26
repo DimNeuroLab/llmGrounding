@@ -1,0 +1,2485 @@
+C:\ProgramData\Anaconda3\python.exe "C:\Program Files\JetBrains\PyCharm 2023.1.2\plugins\python\helpers\pydev\pydevconsole.py" --mode=client --port=52266
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\dimit\\project\\llmGrounding', 'C:/Users/dimit/project/llmGrounding'])
+Python 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.2.0 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 8.2.0
+Python 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('C:/Users/dimit/project/llmGrounding/count.py', wdir='C:/Users/dimit/project/llmGrounding')
+wow
+[]
+[]
+ydata ('Dave', 'does anyone have any wood they would be willing to trade for?', 'Offer')
+wow
+[]
+[]
+ydata ('Dave', 'anyone need ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Tomm', 'Sheep!', 'Offer')
+wow
+[]
+[]
+ydata ('Dave', 'Ok now I can trade you ore or wood, need either?', 'Offer')
+wow
+[]
+[]
+ydata ('Dave', 'wheat for ore anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('Dave', 'anyone need wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Tomm', 'Dave: Wheat for a clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Dave', 'wheat for wood anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('rennoc1', 'so you have ore to spare then...?', 'Offer')
+wow
+[]
+[]
+ydata ('rennoc1', 'so dave, what did you have to trade for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Dave', 'has anyone got a sheep, I can trade wheat or clay', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'i am offering a wheat for wood or clay', 'Offer')
+wow
+[]
+[]
+ydata ('Thomas', 'anyone want wood?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'does someone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Thomas', 'can I buy a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get a sheep or a wheat?  i have too much wood', 'Offer')
+wow
+[]
+[]
+ydata ('Cat', 'anyone would like to give me an ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Cat', 'i can exchange wood', 'Offer')
+wow
+[]
+[]
+ydata ('Cat', 'anyone would give me clay?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'does anyone need ore or wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Cat', 'anyone for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Cat', 'i need clay', 'Offer')
+wow
+[]
+[]
+ydata ('Thomas', '2 ore for a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Cat', 'would anyone like wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Cat', 'anyone can give me a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Joel', 'hey anyone have any brick?', 'Offer')
+wow
+[]
+[]
+ydata ('Euan', 'Hm.  Anyone got wood?', 'Offer')
+wow
+[]
+[]
+ydata ('jon', 'mm - anyone got clay? For ore perhaps?', 'Offer')
+wow
+[]
+[]
+ydata ('Joel', 'anyone have any ore?', 'Offer')
+wow
+[]
+[]
+ydata ('jon', 'anyone got clay for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Joel', 'does anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Joel', 'Euan - trade you a wheat for a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Euan', 'No worries :) Anyone got any clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Joel', 'ok does anyone have a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('jon', 'does anyone have clay for an ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Euan', 'So...anyone got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Cardlinger', 'anyone want wheat for sheep?  or wheat for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Euan', 'Hm. Anyone got clay or wood for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Joel', 'anyone have wheat', 'Offer')
+wow
+[]
+[]
+ydata ('Cardlinger', 'anyone got wheat or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Joel', 'anyone have sheep or wheat', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Nancy, would you be prepared to give me a clay in exchange for a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Chameleon', 'either of you happy to trade wood for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone want to trade clay for ore? :P', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Clay for sheep, anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('Chameleon', 'would eiter of you trade ore for wheat and/or wood', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone prepared to trade ore for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Chameleon', 'skinnylinny did you want ore or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Hmmm, I have too many wheat... Chameleon, do you have any ore going spare?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Clay for wheat, anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone want to give me a wheat for a wood?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone want any wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Nancy', 'does anyone want any clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Nancy', 'hey chameleon do u have any sheep and ill give u wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Chameleon', 'anyone want ore still?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Nancy: Give me wood for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone got any sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Can anyone spare a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone got a spare sheep or wool for an ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Ash', 'is there anything else you would want for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Ash', 'anyone got any wood?', 'Offer')
+wow
+[]
+[]
+ydata ('J', 'anyone got sheep they want to trade for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'J, any wood?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'anyone will trad wheat  or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'ash, want some clay?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'anyone trade clay for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'want sheep guys?', 'Offer')
+wow
+[]
+[]
+ydata ('J', 'is clay not a better place to put it eitheR?', 'Counteroffer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'anyone has ore?', 'Offer')
+wow
+[]
+[]
+ydata ('J', 'me clay you wood anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'anyone has sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'anyone wood and clay for 2 ores?', 'Offer')
+wow
+[]
+[]
+ydata ('mmatrtajova', 'does anyone have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'trade wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Kittles', 'anyone want some ore for wheat', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'anybody want to giv me clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'i need clay ore or wheat', 'Offer')
+wow
+[]
+[]
+ydata ('ariachiba', "I don't suppose anyone wants to give wood for wheat?", 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'ore any1?', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'sheep any1?', 'Offer')
+wow
+[]
+[]
+ydata ('ariachiba', 'Anyone willing to give ore or clay for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'i still need clay', 'Offer')
+wow
+[]
+[]
+ydata ('ariachiba', 'Anyone willing to give ore for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'still need clay', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'plz sum1 giv me clay', 'Offer')
+wow
+[]
+[]
+ydata ('ariachiba', 'Does anyone need wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('ariachiba', 'I will give wheat for anything else...', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'nd sheep', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'got clay any1?', 'Offer')
+wow
+[]
+[]
+ydata ('Rainbow', 'cn i get sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Katherine', 'anyone wants to trade wood for clay', 'Offer')
+wow
+[]
+[]
+ydata ('Josephine', 'No-one wants wheat for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Katherine', 'wheat for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Josephine', 'No clay for anything right?', 'Offer')
+wow
+[]
+[]
+ydata ('Charlotte', 'still wanting clay??  Will swap for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Charlotte', 'anybody prepared to trade a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Katherine', 'sorry', 'Refusal')
+wow
+[]
+[]
+ydata ('Josephine', 'Anyone with sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Charlotte', 'anyone else with sheep yet?', 'Offer')
+wow
+[]
+[]
+ydata ('Josephine', 'Sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Charlotte', 'wood for clay ?', 'Offer')
+wow
+[]
+[]
+ydata ('Charlotte', 'sheep in exchange for wheat??', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to swap a clay for a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'can i get an ore from someone?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got another sheep?  I can offer a wheat', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'i have an ore to give,  need a sheep', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade me a clay?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get a sheep?  giving wheat', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get an ore?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'can i get a wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'got sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'ore anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'ore to spare william?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'william, can you spare another clay for another wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got ore?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'need wood and clay', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get an ore for a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'clay ore for trade anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'clay from someone?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'ore anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'ore, sheep or wheat to spare?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'tomas - wheat for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade a wheat for a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get a clay from someone?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'anyone have some wood to spare?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'i can give you a lot for a clay, anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'wood anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'still no wood?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone want sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'oooh I would have traded you 1 for 1 :p', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone give me ore for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get sheep or ore from someone for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'can i get a wheat for an ore?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get an ore for 1 wood', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone want sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wheat or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'can you trade clay lj?', 'Offer')
+wow
+[]
+[]
+ydata ('william', "can i have someone's ore for sheep?", 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wheat for ore or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade for clay?  I can offer wheat or sheep :)', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'anyone can offer any wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'clay, anyone?  or still no :(', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone want sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade wheat or sheep for a clay?  I need clay', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade some clay for me', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'laura, could i cadge a clay?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'can anyone give me ore for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got ore?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('william', "can i have someone's ore?", 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got ore for sheep/wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'i need clay or ore. i have lots of wood', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade their ore for my wood?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'any sheep for sale?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got sheep for 1 wood?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'looking for some sheep and wheat', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone give me an ore for a clay?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got clay for wood or wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade a sheep or a clay for one of my wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('william', "can i get someone's clay for a wheat?", 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'anyone got some ore?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got wood?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'still no clay or ore to sprae?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'no clay?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wheat for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'clay?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade ore or sheep for these wheat?!', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'ore?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got ore or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'wheat for ore anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'sheep, tomas?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'tomas, do you need wood??', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'ore? wood?', 'Offer')
+wow
+[]
+[]
+ydata ('tomas.kostan', 'ore for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got sheep for a wood?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone want clay?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone have a sheep they would part with?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wood or heep?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i get a wood?', 'Offer')
+wow
+[]
+[]
+ydata ('william', 'can i have a wheat for a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got clay or wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('william', "can i get someone's ore?", 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wood to pare?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'i have no wheat, sorry', 'Refusal')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'wood for clay anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got wheat to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have sheep or wood for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone can trade clay?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone got any wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone has any wood?', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'trading 1 ore for one sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'Need sheep. Have ore/clay', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone any clay?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'do you have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'still no clay for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'will trade anything for wood', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'skinnylinny : trade wheat', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', "Don't suppose anyone wants to give me a wheat in exchange for wood or sheep or clay do they?", 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'need wood [as ever]', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'giving clay for sheep', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone has ore? :D', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'need sheep!', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone has wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Anyone need any clay? :P', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'would anybody like a sheep for one wood?', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'need ore?', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'hey, giving wheat/sheep for wood', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'can anyone trade wheat for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'does anybody want a wood or a wheat?  i could do with a sheep   if possible...', 'Offer')
+wow
+[]
+[]
+ydata ('amycharl', 'anyone want some sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'anyone want to give me one wheat for one clay?', 'Offer')
+wow
+[]
+[]
+ydata ('amycharl', 'anyone want a sheep', 'Offer')
+wow
+[]
+[]
+ydata ('amycharl', 'i will give a sheep for a clay', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'amy? still want wheat for a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'can anybody give me an ore? i can offer one wood.', 'Offer')
+wow
+[]
+[]
+ydata ('amycharl', 'anyone want sheep for wehat or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('IG', 'need clay or wood,  giving ore', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone has ore?', 'Offer')
+wow
+[]
+[]
+ydata ('amycharl', 'anyone want sheep', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'okay, do you people have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'amy, can you trade clay?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'skinny, got some ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone can get wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('amycharl', 'you want any sheep or clay?', 'Offer')
+wow
+[]
+[]
+ydata ('amycharl', 'got wood anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone got wood or ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone has wood?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone can trade wheat and ore for a combination of sheep and wood?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Does anyone have any ore?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'Oh, sabercat, want to trade a clay for a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'skinny, wood for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'amycharl, need any more wood? :P', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone can trade clay when I give sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('skinnylinny', 'amy: You want clay?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone got wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('sabercat', 'anyone can trade sheep for ore? (I give ore..)', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone need sheep', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'does anyone have any clay to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', "does anyone have any wheat to trade?  I've got sheep", 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'does any one have any wheat to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'does anyone have clay or ore to trade, I have plenty sheep', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'i have lots of ore and sheep, anyone got wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'so does anyone have any clay or ore?', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', "don't suppose anyone has any clay to trade,  got plenty wood", 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone have clay or wood', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'I have sheep to trade if anyone has ore or clay', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone have wood??', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'does anyone have any sheep,  can trade a clay', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'anyone have any ore', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'anyone have wood? i can give clay, sheep or wheat', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'can anyone trade me ore for sheep', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone got clay or wood..... i got sheeps and wheat', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'does anyone have any clay to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone got wood', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'anyone have clay to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone have wood', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have clay?  I have ore', 'Offer')
+wow
+[]
+[]
+ydata ('Carina', 'does anybody have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'Anyone have wood available?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have clay to spare?  I have sheep and wheat.', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'does anyone have ore?  i can give sheep or wood', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'me again.  anyone have sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'do anyone have clay or wheat', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have wood? I can spare sheep, ore or wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'does anyone have any clay to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'do anyone need ore', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'Can anyone spare ore?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone have clay', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'anyone have wood to trade. I have sheep', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have clay or sheep? I can give wheat.', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have clay? :)', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone got wheat and need wood?', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'anyone have ore. I have some wood to trade', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have sheep? I have wood and ore.', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'Anyone have wheat to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'can anyone trade ore. I have more wood to trade', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'any one have any ore?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'anyone got any wood? i can give clay or wheat', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got clay', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have ore or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'does anyone have wood or ore', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'do anyone have ore??', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'Anyone have any  clay to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got wood', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'anyone have sheep or wheat to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got wood', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'any one have sheep to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got sheep??', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone got wood?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got wood', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got wood', 'Offer')
+wow
+[]
+[]
+ydata ('nareik15', 'anyone have any wheat to trade', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have wheat   and need ore?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got wood  but need ore or wheat', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'I need wheat.   anyone want sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'anyone have clay or wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'got sheep by any chance? i can give clay or ore', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'I can give clay or wheat for a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'got any wood? I have clay', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'do you have any wheat or wood? i can give anything else', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'have you any wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'any clay? I can spare ore or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'any wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Gaeilgeoir', 'I can give a clay or wheat for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'anyone have a clay to spare? I have wood, wheat and sheep', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got sheep... i got ore', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got clay... i got wood and wheat', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got clay', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'who got clay', 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got ore??', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got wheat or ore', 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'anyone have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'anyone have wheat? I have sheep and clay', 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'sorry to ask again. anyone got wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('yiin', 'anyone got ore', 'Offer')
+wow
+[]
+[]
+ydata ('inca', "anyone have ore? i'm drowning in clay", 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'anyone have wood? I have sheep', 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'anyone got ore or wheat? I have sheep', 'Offer')
+wow
+[]
+[]
+ydata ('gaeilgeoir', 'Anyone got wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', "anyone got clay they'd trade?", 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'could i get one of your many clays CCG? can give you sheep or wood', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'anyone got a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', "anyone got anything they'd trade for wheat?", 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'any one got a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', "anyone got wheat? I'll give wood or clay", 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone want to trade clay for something?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got clay or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have sheep for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got sheep or ore for a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'does anyone want sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got a wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'I could use some brick', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'Anybody have spare ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'Agnes, would you swap clay for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', "If anyone still has clay, I'll trade a couple of wood for it", 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'anyone wanna trade one of their wheat for an ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'I have clay if anyone wants to trade it for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'After all that - anyone else got a spare wheat kicking about?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'I have a spare wheat now, if anyone has clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'any spare wheat about i have spare clay ore or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have clay that would like ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone got clay? I have sheep/ore', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'I have spare clay', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'Anyone have a spare wood, I can give you an ore for it', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'Will anyone give me a sheep for wood or ore?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'Will anyone give me ore or grain for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'nhave clay for ore or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'anyone want sheep or wheat for clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'anyone got any wood?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone got a spare sheep? I have wheat or ore', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'will anyone give me a sheep for wood, ore or wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'my wheat for sheep/clay anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'clay for wood anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'sheep for wheat anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'sheep or wood for wheat anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'anyone want clay or sheep for their ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', '...anyone want sheep? :)', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'will anyone give me wheat for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'anyone got spare wheat? have plenty of sheep', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'will anyone give we a wood for a clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', "I have a clay I'd like to swap for wood - any takers?", 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', "don't suppose anyone will give me a wood for a clay now?", 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone got wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'I have spare wood - anybody have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone got sheep or wheat for my ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'anyone got wheat and want clay or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', "I'm looking for sheep or wood and I have clay to give", 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone got a wood for my ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'anyone want clay?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone give me wood for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'I have ore and will trade it for anything else :)', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'anyone got wheat and want sheep or clay?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone give me grain for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'anyone want clay or sheep for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', "I'll give clay for ore", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'Anyone want to trade to give me wood?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I can trade my Sheep for Wheat, anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'Sheep for Ore?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'need wheat I can give you either clay or sheep.', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "anyone want to trade.... I'm giving away a wheat for clay", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', "anyone want clay? I'd like wood", 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'Clay for wood or wheat....', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'Need wood guys.... can give you clay or sheep.', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want a sheep..?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "anyone want sheep... I've got a yard full", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', "I'd like wheat", 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "now I'm after a sheep... I'll give a wheat", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'Clay for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I can give my sheep for anything...', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I need wood or wheat. I can give my sheep', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'anyone got wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', "I'd like wheat?", 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "anyone want a clay? I'm after ore", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'any chance of a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'Wheat....', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I can give clay for wheat', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'Sheep anyone', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'anyone got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'Ok I can give Sheep for Clay', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', '2 Sheep for Clay Ztime', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "anyone want wood... I'm after ore or clay", 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'What do you need Shawnus', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'so..can anyone trade me a sheep for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I can give wood for ore or wheat.', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'want to trade a wood for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'have a clay now, anyone have a wood?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I need either ore or clay.. I can give wood or sheep.', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I need wood, clay or ore,  I can give Sheep', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'Wheat -> Ore??', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'anyone have ore to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'Wood -> Sheep', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'anyone want to give me wheat for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'i need a wheat', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "I'm after clay...", 'Offer')
+wow
+[]
+[]
+ydata ('somdechn', 'I have give wood for wheat.', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want to give me clay...', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'need wheat', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "anyone want wheat? I'm after wood", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', "I'd like some clay", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'er sheep for clay attempt 2?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "anyone have ore? I'm giving away a sheep", 'Offer')
+wow
+[]
+[]
+ydata ('ztime', "anyone want wheat? I'm after clay.. or wood", 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'anyone need wood?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'Clay for me?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone after wood...', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'so no one wants wood right?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'clay for me?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'clay for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'ok anyone want a clay now?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', "I'd like some wheat?", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', 'sheep for me?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'anyone want wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'anyone want to trade my lovely wood for some wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', "I'd like some sheep?", 'Offer')
+wow
+[]
+[]
+ydata ('WoodnSheep', "I'd like a wheat?", 'Offer')
+wow
+[]
+[]
+ydata ('Shawnus', 'anyone got a sheep to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('ztime', 'how would you like to have some of my clay?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', 'trade a sheep or ore for a clay?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'i am looking for grain. can trade sheep or wood', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', 'anyone have brick now?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'looking to trade wheat for ore', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'anyone want to give me brick or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'ok prob know the answer to this, but does anyone have any brick?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'wood for sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', "i'd like a wheat.", 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'Ok, anyone willing to part with a wheat? I can offer brick or sheep.', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'offering 1-2 ore for a wood', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'SO, I need wheat. Is there anything someone would want?', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', 'does anyone want to give me a wheat? i have wood ore and sheep to give.', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'does anyone have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'anyone selling ore?', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', 'no brick/clay on the board eh? to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have clay', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'I can give you wood if you have basically ANYTHING else to give me', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have brick? i can give sheep', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', 'raef you wanna trade some ore?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'does anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'anyone want to give a wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'anyone want to give me wood for brick?', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', 'does anyoen have wheat to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'I could use wood if anyone has to spare', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'i will trade an ore for a wheat', 'Counteroffer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'does anyone have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', "does anyone want to give me a brick or wheat? i'll give you a sheep", 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'does anyone have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'anyone want to give a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'i have a sheep', 'Offer')
+wow
+[]
+[]
+ydata ('zorburt', 'does anyone want to give me an ore?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'I would love some ore', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'ok, now that I"m not the only one with 8 points, can anyone spare wood or ore?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'does anyone have any ore?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'i will 1 sheep for 1 wheat', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'does anyone have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'anyone want to give me a sheep for a brick?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'ayone need ore?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'ore for any wood/clay?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 't', 'Accept')
+wow
+[]
+[]
+ydata ('gramos', 'does anyone have wood they can spare', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyne have brick?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'can anyone spare a brikc?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'ghettoette - i can give wood for brick', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have brick?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'anyone willing to give up wood or clay?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'anyone trading clay or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'anyone want to give me wheat for wood or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'want to give me ore for brick?', 'Offer')
+wow
+[]
+[]
+ydata ('catanstrophe', 'anyone have sheeo?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'so, umm, anyone need sheep and wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('raefbrisbin', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'hows the clay situation? anyone have one to spare?', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'anyone have wheat or wood to give me for ore or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'I need a sheep, anyone want ore?', 'Offer')
+wow
+[]
+[]
+ydata ('gramos', 'does anyone have sheep or clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Ghettoette', 'anyone want ore for a wood?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'is anybody willing to trade a clay? i can give you a wheat', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got wood?', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'does anyone have wood?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'anyone got ore?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'anyone have any spare wood? can give sheep or ore', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'ok anyone got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'any clay this time?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'any ore or clay? once again i can offer sheep', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', "i presume there's still no clay?", 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'anyone got clay to trade?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', "i suppose this is pretty unlikely, but does anybody have 2 wheat they'd give me for 2 clay?", 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'dmm will swap you a wheat for a sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'anybody willing to give me a wood? i can trade clay or ore for it', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have a sheep? can offer ore', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'does anyone have wheat to spare? i can give clay or ore', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'can i have one of those sheep please anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'anybody with a wheat? i can offer clay', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'any wheat now?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have a sheep for clay or ore?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', "anybody with wood? i'll give ore or clay", 'Offer')
+wow
+[]
+[]
+ydata ('dmm', "can anybody give me a couple of wheat? i'll give clay in return", 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wood for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'any wood? i can give a sheep', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'does anybody have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have ore?', 'Offer')
+wow
+[]
+[]
+ydata ('ljaybrad123', 'anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'does anyone have spare wood? i could give ore or wheat', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'Does anyone have clay?', 'Offer')
+wow
+[]
+[]
+ydata ('inca', 'anyone got sheep? can give wheat or wood', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'any chance of a sheep AND a wheat? i can offer ores', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'any sheep and wheat now?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'now i need a wheat OR a sheep', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'i can give a sheep or wood for a wheat. any takers?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'does anyone have clay they can trade?', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'inca, are you still interested in wood for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'matt, wood or sheep for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('gotwood4sheep', 'matt, still want a wood for one of your wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('dmm', 'any clay lying around?', 'Offer')
+wow
+[]
+[]
+ydata ('CheshireCatGrin', 'any chanve anyone wants a sheep in return for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('intemporaliter', 'Are you at all interested in trading a sheep for a brick (if you have one)?', 'Offer')
+wow
+[]
+[]
+ydata ('keyser84', 'i give 2 wheat, you give 1 sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('keyser84', 'again 2 wheat for 1 sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('intemporaliter', "Don't suppose you'd be interested in ore for clay?", 'Offer')
+wow
+[]
+[]
+ydata ('keyser84', 'you can give sheep for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('keyser84', 'trade? i give 1 ore, receive 1 wood/wheat', 'Offer')
+wow
+[]
+[]
+ydata ('keyser84', 'trade? i give 2 ore, receive 2 wheat', 'Offer')
+wow
+[]
+[]
+ydata ('intemporaliter', "Do you have any spare wheat? I've ore or sheep on offer.", 'Offer')
+wow
+[]
+[]
+ydata ('keyser84', 'i give 2 ore for 1 clay/wheat', 'Offer')
+wow
+[]
+[]
+ydata ('intemporaliter', 'Do you have any wheat or sheep for ore or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone got a spare wheat or wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'anyone wanna trade some of their clay/ore for some wood?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'anyone want wood for either wheat or clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'my wood or wheat for caly or ore anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'I assume no-one will give me clay for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have clay for my sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone got wheat for wood or sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have clay for sheep or wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone got clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have clay or ore?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'I have wheat or sheep and would like some wood or clay', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone need sheep? I have a large quantity of them and could do with wheat/wood instead', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'Anyone want to trade sheep/wheat for ore?', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'if anyone wants wood, I will trade it for any other resource :/', 'Offer')
+wow
+[]
+[]
+ydata ('sparkles', 'wood for wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone got an ore? I can give anything except clay', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'anyone want ore for their wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'will anyone give me wheat for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have clay for my sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('nelsen', 'anyone give me sheep for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Sparkles', 'anyone got spare ore/sheep/clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'I could still use wheat in return for sheep.', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have spare clay', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'anyone have clay/wheat for wood/sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have sheep, I have spare wood', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'nobody has clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Sparkles', 'anyone got wood/ore for wheat/sheep?', 'Offer')
+wow
+[]
+[]
+ydata ('Sparkles', "i assume no one has clay that they'll trade?", 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'sheep for my wood anyone?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone w spare clay?', 'Offer')
+wow
+[]
+[]
+ydata ('Sparkles', 'can do clay for sheep', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'Hmmm. Does anybody have wheat?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', "now's your chance to be nice - want to swap one of those wheat?", 'Offer')
+wow
+[]
+[]
+ydata ('Sparkles', 'anyone got spare wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Agnes', 'anybody have ore? I have spare wood.', 'Offer')
+wow
+[]
+[]
+ydata ('Sparkles', 'anyone have a spare sheep for wood?', 'Offer')
+wow
+[]
+[]
+ydata ('Tyrant Lord', 'my sheep/wood for anything else?', 'Offer')
+wow
+[]
+[]
+ydata ('Kersti', 'anyone have clay?', 'Offer')
+zero_context 617
+non_zero_context 3939
+{'Offer': 1593, 'Refusal': 1616, 'Accept': 697, 'Counteroffer': 649}
+{'Offer': {'Refusal': 810, 'Counteroffer': 217, 'Accept': 267, 'Offer': 299}, 'Refusal': {'Offer': 753, 'Accept': 105, 'Refusal': 601, 'Counteroffer': 157}, 'Accept': {'Offer': 386, 'Counteroffer': 107, 'Accept': 147, 'Refusal': 57}, 'Counteroffer': {'Counteroffer': 168, 'Accept': 178, 'Offer': 154, 'Refusal': 149}}
+Entropy on count_ind: 1.875422444768787
+Conditioned entropy on count: 1.7351287049697257
+Count: {'Offer': {'Refusal': 810, 'Counteroffer': 217, 'Accept': 267, 'Offer': 299}, 'Refusal': {'Offer': 753, 'Accept': 105, 'Refusal': 601, 'Counteroffer': 157}, 'Accept': {'Offer': 386, 'Counteroffer': 107, 'Accept': 147, 'Refusal': 57}, 'Counteroffer': {'Counteroffer': 168, 'Accept': 178, 'Offer': 154, 'Refusal': 149}}
+Count_ind: {'Offer': 1593, 'Refusal': 1616, 'Accept': 697, 'Counteroffer': 649}
