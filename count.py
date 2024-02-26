@@ -52,20 +52,24 @@ if __name__ == '__main__':
         count[dialogue_act_curr][dialogue_act_next] = count[dialogue_act_curr].get(dialogue_act_next, 0) + 1
         count_ind[dialogue_act_curr] += 1
 
-    # Introduce 'Other' dialogue act
-    count['Other'] = {}
-    for dialogue_act_curr in count:
-        for dialogue_act_next in count:
-            if dialogue_act_next != 'Other':  # Exclude transitions to 'Other'
-                count[dialogue_act_curr].setdefault(dialogue_act_next, 0)
-        print("dialogue_act_curr",dialogue_act_curr)
-        print(count[dialogue_act_curr])
-        print(count[dialogue_act_curr].values())
-        print('sum',sum(count[dialogue_act_curr].values()))
-        count[dialogue_act_curr]['Other'] = sum(count[dialogue_act_curr].values()) - count[dialogue_act_curr].get(dialogue_act_curr, 0)
+    print(count_ind)
 
-    # Update count_ind for 'Other' dialogue act
-    count_ind['Other'] = len(y_data) - sum(count_ind.values())
+    print(count)
+    # # Introduce 'Other' dialogue act
+    # count['Other'] = {}
+    #
+    #
+    # # Update count_ind for 'Other' dialogue act
+    # count_ind['Other'] = len(y_data) - sum(count_ind.values())
+    #
+    # for dialogue_act_next in count_ind:
+    #     tot_to_dialogue_act_next=0
+    #     for dicts in  count.values():
+    #         print(dicts)
+    #         tot_to_dialogue_act_next +=dicts.get('dialogue_act_next',0)
+    #     count['Other'][dialogue_act_next] = count_ind[dialogue_act_next]-tot_to_dialogue_act_next
+
+
 
     # Calculating entropy for count_ind
     total_samples = sum(count_ind.values())

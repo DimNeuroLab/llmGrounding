@@ -19,7 +19,7 @@ from tenacity import (
 
 CONFIG = {
     'NUM_TURNS_TO_CLASSIFY': 1137, # set to which turn number the script should go
-    'NUM_CONTEXT_SAMPLES': 1, # how many of the previous turn should be used as context; if you put -1 all turns will be used
+    'NUM_CONTEXT_SAMPLES': 3, # how many of the previous turn should be used as context; if you put -1 all turns will be used
     'MODEL_NAME': 'gpt-3.5-turbo', # type of model to use
     'PRINT_PROMPT_BEFORE_SENDING': False, # only set to true for debug! This will not result in real ChatGPT calls
 }
@@ -159,7 +159,7 @@ def build_prompt(input_sample):
     
     A game of Settlers is being played by a group of players. During the game there is this dialogue:\n
     {dialogue}
-    Please consider what was said AND who said it, which can indicate a specific player's willingness to give or receive a specific resource. Reflect on how the conversation is going and the context, imagining that each utterance was written one after the other in that order. Reflect on the intentions of the players. 
+    Please consider what was said, which can indicate a specific player's willingness to give or receive a specific resource. Reflect on how the conversation is going and the context, imagining that each utterance was written one after the other in that order. Reflect on the intentions of the players. 
     
     How could that dialogue continue?\n
     Very important: please respond with 1 possible continuation in this precise format: [type of utterance]
