@@ -34,7 +34,31 @@ def get_turns_and_labels(n_context_samples):
             context_rows = data.iloc[idc]
             context_speakers = context_rows['emitter'].tolist()
             context_text = context_rows['text'].tolist()
-            x_data.append([(s, context_text[i]) for i, s in enumerate(context_speakers)])
+            context_dialogue_act = context_rows['dialogue_act'].tolist()
+            print(context_dialogue_act)
+            print("context_rows['dialogue_act']")
+            print(context_rows['dialogue_act'])
+            print("context_text")
+            print(context_text)
+            context_dialogue_act.reverse()
+
+            if len(context_dialogue_act)!=0:
+                if context_dialogue_act[0] == 'Other':
+                    i=0
+                    while (i <len(context_dialogue_act))  and (context_dialogue_act[i]=='Other'):
+                        i+=1
+                    if i <len(context_dialogue_act) and context_dialogue_act[i]!='Other':
+                       j=0
+                       while context_dialogue_act[j] == 'Other':
+                        context_dialogue_act[j]=context_dialogue_act[i]
+                        j+=1
+
+                context_dialogue_act.reverse()
+
+
+            x_data.append([(s, context_text[i],context_dialogue_act[i]) for i, s in enumerate(context_speakers)])
+
+
     return x_data, y_data
 
 if __name__ == '__main__':
