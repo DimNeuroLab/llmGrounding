@@ -9,15 +9,18 @@ CONFIG = {
     'PRINT_PROMPT_BEFORE_SENDING': False,
 }
 
+
 def get_turns_and_labels(n_context_samples):
     x_data = []
     y_data = []
-
+    zero_context = 0
+    non_zero_context = 0
     data = pd.read_csv('incoming_base_spect.csv', encoding='latin1')
     dialogue_nums = np.unique(data['dialogue_num'].to_numpy())
     for dialogue_num in dialogue_nums[:CONFIG['NUM_TURNS_TO_CLASSIFY']]:
         sub_df = data.loc[data['dialogue_num'] == dialogue_num]
-        relevant_turn_ids = np.unique(sub_df.loc[(sub_df['dialogue_act'] != 'Other') & (sub_df['dialogue_act'] != "0")]['turn_id'].to_numpy())
+        relevant_turn_ids = np.unique(
+            sub_df.loc[(sub_df['dialogue_act'] != 'Other') & (sub_df['dialogue_act'] != "0")]['turn_id'].to_numpy())
         if relevant_turn_ids.shape[0] == 0:
             continue
         for turn_id in relevant_turn_ids:
@@ -27,7 +30,7 @@ def get_turns_and_labels(n_context_samples):
             speaker = np.unique(relevant_rows['emitter'].to_numpy())[0]
             text = ' '.join(str(text) for text in relevant_rows['text'].tolist())
             y_data.append((speaker, text, dialogue_act))
-            idx_min = relevant_rows.index.min()-n_context_samples
+            idx_min = relevant_rows.index.min() - n_context_samples
             if idx_min not in list(sub_df.index):
                 idx_min = sub_df.index.min()
             idc = [i for i in range(idx_min, relevant_rows.index.min())]
@@ -35,44 +38,48 @@ def get_turns_and_labels(n_context_samples):
             context_speakers = context_rows['emitter'].tolist()
             context_text = context_rows['text'].tolist()
             context_dialogue_act = context_rows['dialogue_act'].tolist()
-            print(context_dialogue_act)
-            print("context_rows['dialogue_act']")
-            print(context_rows['dialogue_act'])
-            print("context_text")
-            print(context_text)
+
             context_dialogue_act.reverse()
 
-            if len(context_dialogue_act)!=0:
+            if len(context_dialogue_act) != 0:
                 if context_dialogue_act[0] == 'Other':
-                    i=0
-                    while (i <len(context_dialogue_act))  and (context_dialogue_act[i]=='Other'):
-                        i+=1
-                    if i <len(context_dialogue_act) and context_dialogue_act[i]!='Other':
-                       j=0
-                       while context_dialogue_act[j] == 'Other':
-                        context_dialogue_act[j]=context_dialogue_act[i]
-                        j+=1
+                    i = 0
+                    while (i < len(context_dialogue_act)) and (context_dialogue_act[i] == 'Other'):
+                        i += 1
+                    if i < len(context_dialogue_act) and context_dialogue_act[i] != 'Other':
+                        j = 0
+                        while context_dialogue_act[j] == 'Other':
+                            context_dialogue_act[j] = context_dialogue_act[i]
+                            j += 1
 
                 context_dialogue_act.reverse()
+                non_zero_context += 1
+            else:
+                zero_context += 1
+                print("wow")
+                print(context_speakers)
+                print(context_text)
+                print('ydata', y_data[-1])
 
+            x_data.append([(s, context_text[i], context_dialogue_act[i]) for i, s in enumerate(context_speakers)])
 
-            x_data.append([(s, context_text[i],context_dialogue_act[i]) for i, s in enumerate(context_speakers)])
-
-
+    print("zero_context", zero_context)
+    print("non_zero_context", non_zero_context)
     return x_data, y_data
 
+
 if __name__ == '__main__':
-    x_data, y_data = get_turns_and_labels(CONFIG['NUM_CONTEXT_SAMPLES'])
+    x_d, y_d = get_turns_and_labels(CONFIG['NUM_CONTEXT_SAMPLES'])
     count = {}
     count_ind = {}
-    
-    for y in y_data:
+
+    for y in y_d:
         count[y[2]] = count.get(y[2], {})
         count_ind[y[2]] = count_ind.get(y[2], 0)
 
-    for idx in range(len(y_data)-1):
-        dialogue_act_curr = y_data[idx][2]
-        dialogue_act_next = y_data[idx+1][2]
+    for idx in range(len(y_d) - 1):
+        dialogue_act_curr = y_d[idx][2]
+        dialogue_act_next = y_d[idx + 1][2]
         count[dialogue_act_curr][dialogue_act_next] = count[dialogue_act_curr].get(dialogue_act_next, 0) + 1
         count_ind[dialogue_act_curr] += 1
 
@@ -92,8 +99,6 @@ if __name__ == '__main__':
     #         print(dicts)
     #         tot_to_dialogue_act_next +=dicts.get('dialogue_act_next',0)
     #     count['Other'][dialogue_act_next] = count_ind[dialogue_act_next]-tot_to_dialogue_act_next
-
-
 
     # Calculating entropy for count_ind
     total_samples = sum(count_ind.values())
