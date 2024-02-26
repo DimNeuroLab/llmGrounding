@@ -19,6 +19,6 @@ cont1_renamed_players_no_next_text_no_description_examples	macro avg 0.21056 0.1
 cont1_renamed_players_no_next_text_no_description_examples	weighted avg 0.29219 0.14217 0.13970 3939
 cont1_renamed_players_no_next_text_no_description_examples_reduced_prompt	macro avg	0.22830	0.11774	0.12126	3939
 cont1_renamed_players_no_next_text_no_description_examples_reduced_prompt	weighted avg	0.31569	0.13887	0.14182	3939
-cont3_renamed_players_no_next_text_no_description_examples_reduced_prompt	accuracy	0.18964	3939
+cont3_renamed_players_no_next_text_no_description_examples_reduced_prompt	accuracy			0.18964	3939
 cont3_renamed_players_no_next_text_no_description_examples_reduced_prompt	macro avg	0.26181	0.15972	0.15493	3939
 cont3_renamed_players_no_next_text_no_description_examples_reduced_prompt	weighted avg 	0.36913	0.18964	0.18483	3939
