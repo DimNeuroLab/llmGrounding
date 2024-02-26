@@ -13,3 +13,5 @@ no_players_no_next_text_no_description_examples	macro avg	0.24095	0.15633	0.1541
 no_players_no_next_text_no_description_examples	weighted avg	0.33025	0.18380	0.18239	3939
 context_3_no_players_no_next_text_no_description_examples	macro avg	0.23415	0.17457	0.16672	3939
 context_3_no_players_no_next_text_no_description_examples	weighted avg	0.32427	0.20741	0.20126	3939
+context_3_renamed_players_no_next_text_no_description_examples	macro avg	0.23756	0.16656	0.15582	3939
+context_3_renamed_players_no_next_text_no_description_examples	weighted avg	0.33242	0.19929	0.18833	3939
