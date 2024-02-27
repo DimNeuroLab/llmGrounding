@@ -95,8 +95,10 @@ if __name__ == '__main__':
 
 
     print("count_y",count_y)
+    import collections
+    count_cond_sorted={key:collections.OrderedDict(sorted(value.items())) for key,value in count_cond.items()}
 
-    print("count_cond",count_cond)
+    print("count_cond",count_cond_sorted)
     print("count_x",count_x)
     correct_predictions_using_x=sum(max(val.values()) for val in count_cond.values())
     print("correct_predictions_using_x",correct_predictions_using_x)
