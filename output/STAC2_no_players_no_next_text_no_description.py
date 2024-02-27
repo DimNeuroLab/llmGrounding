@@ -19,7 +19,7 @@ from tenacity import (
 
 CONFIG = {
     'NUM_TURNS_TO_CLASSIFY': 1137, # set to which turn number the script should go
-    'NUM_CONTEXT_SAMPLES': 0, # how many of the previous turn should be used as context; if you put -1 all turns will be used
+    'NUM_CONTEXT_SAMPLES': 1, # how many of the previous turn should be used as context; if you put -1 all turns will be used
     'MODEL_NAME': 'gpt-3.5-turbo', # type of model to use
     'PRINT_PROMPT_BEFORE_SENDING': False, # only set to true for debug! This will not result in real ChatGPT calls
 }
@@ -139,35 +139,27 @@ def parse_response(response):
             return 'other'
 
 
-def build_prompt_to_classify(input_sample, sample_to_classify):
+def build_prompt(input_sample):
     dialogue = ''
-    playersmap={}
-    if len(input_sample)>0:
-        for context in input_sample:
-            playersmap[context[0]]=playersmap.get(context[0],'player_'+str(len(playersmap)))
-            dialogue += playersmap[context[0]] + ': ' + context[1] + '\n'
-    context= sample_to_classify
-    playersmap[context[0]] = playersmap.get(context[0], 'player_' + str(len(playersmap)))
-    dialogue += playersmap[context[0]] + ': ' + context[1] + '\n'
-    classdescriptions=["Offer: A proposal to trade resources between players, which isn't related to another offer. Example: Hey anyone have any clay?\n",
-    "Counteroffer: A response to another player's offer, proposing a different trade. Example: I can do 1 of each for 2 clay.\n",
-    "Accept: Agreeing to an offer or counteroffer made by another player. Example: I can wheat for clay.\n",
-    "Refusal: Declining an offer or counteroffer made by another player. Example: No, not interested.\n",
-    "Other: Turns or statements that do not involve direct trading, such as discussing game mechanics or making observations about the current state of the game, including questions that aren't offers or counteroffers. Example: What’s up?\n"]
-    classdescriptions_text="".join(classdescriptions)
-
-    prompt = f"""I will give you a dialogue from a game of Settlers of Catan, you will need to decide the class of its final part.
+    for context in input_sample:
+        dialogue += context[1] + '\n' # context[0] + ': ' + context[1] + '\n'
+    prompt = f"""I will give you a dialogue from a game of Settlers of Catan, you will need to continue it with 1 possible utterance from 1 player, and 1 class.
      
-    The admissible classes of utterances, with definition and examples are:\n
-    {classdescriptions_text}
+    The admissible types of utterances, with definition are:\n
+    Offer: A proposal to trade resources between players, which isn't related to another offer
+    Counteroffer: A response to another player's offer, proposing a different trade.
+    Accept: Agreeing to an offer or counteroffer made by another player.
+    Refusal: Declining an offer or counteroffer made by another player.
+    Other: Turns or statements that do not involve direct trading, such as discussing game mechanics or making observations about the current state of the game, including questions that aren't offers or counteroffers. 
+    
     Please remember: If an utterance qualifies for "Other" but also for one of the other 4 types, it should then be considered of the other type (not of the type "Other")
     
     A game of Settlers is being played by a group of players. During the game there is this dialogue:\n
     {dialogue}
-    Please consider what was, which can indicate a specific player's willingness to give or receive a specific resource. Reflect on how the conversation is going and the context, imagining that each utterance was written one after the other in that order. Reflect on the intentions of the players. 
+    Please consider what was said AND who said it, which can indicate a specific player's willingness to give or receive a specific resource. Reflect on how the conversation is going and the context, imagining that each utterance was written one after the other in that order. Reflect on the intentions of the players. 
     
-    What is the class of the final part of the dialogue?\n
-    Very important: please respond with 1 possible continuation in this precise format: [class of utterance]
+    How could that dialogue continue?\n
+    Very important: please respond with 1 possible continuation in this precise format: [type of utterance]
     """
     return prompt.replace('\t', '')
 
@@ -176,8 +168,7 @@ def write_results_to_file(y_true, y_pred, y_true_parsed, y_pred_parsed):
     ts = str(time.time()).split('.')[0]
     n_turns = str(CONFIG['NUM_TURNS_TO_CLASSIFY'])
     n_context = str(CONFIG['NUM_CONTEXT_SAMPLES'])
-    import os
-    with open(os.path.basename(__file__)+'_n_turns_' + n_turns + '_n_context_' + n_context +'_' + ts + '.tsv', 'w') as out_file:
+    with open('no_players_no_text_no_description_n_turns_' + n_turns + '_n_context_' + n_context +'_' + ts + '.tsv', 'w') as out_file:
         out_file.write('true_act\tpred_act\ttrue_turn\tpred_turn\n')
         for idx, y_t in enumerate(y_true_parsed):
             out_file.write(y_t+'\t')
@@ -194,17 +185,17 @@ if __name__ == '__main__':
     y_pred_raw = []
     y_true_raw = []
     for idx, sample in enumerate(tqdm(x_data)):
-        #if len(sample) > 0:
-        prompt = build_prompt_to_classify(sample, y_data[idx])
-        if CONFIG['PRINT_PROMPT_BEFORE_SENDING']:
-            print(prompt)
-            continue
-        chat_gpt_output = call_chatgpt(prompt)
-        y_pred_raw.append(chat_gpt_output)
-        y_pred = parse_response(chat_gpt_output)
-        y_pred_all.append(y_pred)
-        y_true_all.append(y_data[idx][-1].lower())
-        y_true_raw.append('; '.join(y_data[idx]))
+        if len(sample) > 0:
+            prompt = build_prompt(sample)
+            if CONFIG['PRINT_PROMPT_BEFORE_SENDING']:
+                print(prompt)
+                continue
+            chat_gpt_output = call_chatgpt(prompt)
+            y_pred_raw.append(chat_gpt_output)
+            y_pred = parse_response(chat_gpt_output)
+            y_pred_all.append(y_pred)
+            y_true_all.append(y_data[idx][-1].lower())
+            y_true_raw.append('; '.join(y_data[idx]))
         if (idx > 0) & (divmod(idx, 50)[1] == 0):
             print("evaluations at "+str(idx)+" samples")
             evaluate_prompts(y_true_all, y_pred_all)
