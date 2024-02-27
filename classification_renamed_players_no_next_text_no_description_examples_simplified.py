@@ -18,7 +18,7 @@ from tenacity import (
 
 
 CONFIG = {
-    'NUM_TURNS_TO_CLASSIFY': 1137, # set to which turn number the script should go
+    'NUM_TURNS_TO_CLASSIFY': 10, # set to which turn number the script should go
     'NUM_CONTEXT_SAMPLES': 0, # how many of the previous turn should be used as context; if you put -1 all turns will be used
     'MODEL_NAME': 'gpt-3.5-turbo', # type of model to use
     'PRINT_PROMPT_BEFORE_SENDING': False, # only set to true for debug! This will not result in real ChatGPT calls
@@ -176,7 +176,8 @@ def write_results_to_file(y_true, y_pred, y_true_parsed, y_pred_parsed):
     ts = str(time.time()).split('.')[0]
     n_turns = str(CONFIG['NUM_TURNS_TO_CLASSIFY'])
     n_context = str(CONFIG['NUM_CONTEXT_SAMPLES'])
-    with open('classification_renamed_players_no_next_text_no_description_examples_simplified_n_turns_' + n_turns + '_n_context_' + n_context +'_' + ts + '.tsv', 'w') as out_file:
+    import os
+    with open(os.path.basename(__file__)+'_n_turns_' + n_turns + '_n_context_' + n_context +'_' + ts + '.tsv', 'w') as out_file:
         out_file.write('true_act\tpred_act\ttrue_turn\tpred_turn\n')
         for idx, y_t in enumerate(y_true_parsed):
             out_file.write(y_t+'\t')
