@@ -7,6 +7,7 @@ CONFIG = {
     'NUM_CONTEXT_SAMPLES': 1,
     'MODEL_NAME': 'gpt-3.5-turbo',
     'PRINT_PROMPT_BEFORE_SENDING': False,
+    'log_empty_context': False,
 }
 
 
@@ -54,14 +55,19 @@ def get_turns_and_labels(n_context_samples):
 
                 context_dialogue_act.reverse()
                 non_zero_context += 1
+                x_data.append([(s, context_text[i], context_dialogue_act[i]) for i, s in enumerate(context_speakers)])
             else:
                 zero_context += 1
-                print("wow")
-                print(context_speakers)
-                print(context_text)
-                print('ydata', y_data[-1])
+                if CONFIG['log_empty_context']:
+                    print("wow")
+                    print(context_speakers)
+                    print(context_text)
+                    print('ydata', y_data[-1])
+                    print('dialogue num',dialogue_num)
+                    print('turn id',turn_id)
+                x_data.append([("None", "", "Start")])
 
-            x_data.append([(s, context_text[i], context_dialogue_act[i]) for i, s in enumerate(context_speakers)])
+
 
     print("zero_context", zero_context)
     print("non_zero_context", non_zero_context)
@@ -70,47 +76,56 @@ def get_turns_and_labels(n_context_samples):
 
 if __name__ == '__main__':
     x_d, y_d = get_turns_and_labels(CONFIG['NUM_CONTEXT_SAMPLES'])
-    count = {}
-    count_ind = {}
-
+    count_cond = {}
+    count_y = {}
+    count_x = {}
+    for x in x_d:
+        dialogue_act_curr=x[-1][2]
+        count_x[dialogue_act_curr] = count_x.get(dialogue_act_curr, 0)+1
+        count_cond[dialogue_act_curr] = count_cond.get(dialogue_act_curr, {})
     for y in y_d:
-        count[y[2]] = count.get(y[2], {})
-        count_ind[y[2]] = count_ind.get(y[2], 0)
+        count_y[y[2]] = count_y.get(y[2], 0)+1
 
-    for idx in range(len(y_d) - 1):
-        dialogue_act_curr = y_d[idx][2]
-        dialogue_act_next = y_d[idx + 1][2]
-        count[dialogue_act_curr][dialogue_act_next] = count[dialogue_act_curr].get(dialogue_act_next, 0) + 1
-        count_ind[dialogue_act_curr] += 1
 
-    print(count_ind)
 
-    print(count)
+    for idx in range(len(x_d)):
+        dialogue_act_curr = x_d[idx][-1][2]
+        dialogue_act_next = y_d[idx][2]
+        count_cond[dialogue_act_curr][dialogue_act_next] = count_cond[dialogue_act_curr].get(dialogue_act_next, 0) + 1
+
+
+    print("count_y",count_y)
+
+    print("count_cond",count_cond)
+    print("count_x",count_x)
+    correct_predictions_using_x=sum(max(val.values()) for val in count_cond.values())
+    print("correct_predictions_using_x",correct_predictions_using_x)
+    print("accuracy", correct_predictions_using_x/sum(sum(val.values()) for val in count_cond.values()))
     # # Introduce 'Other' dialogue act
-    # count['Other'] = {}
+    # count_cond['Other'] = {}
     #
     #
-    # # Update count_ind for 'Other' dialogue act
-    # count_ind['Other'] = len(y_data) - sum(count_ind.values())
+    # # Update count_y for 'Other' dialogue act
+    # count_y['Other'] = len(y_data) - sum(count_y.values())
     #
-    # for dialogue_act_next in count_ind:
+    # for dialogue_act_next in count_y:
     #     tot_to_dialogue_act_next=0
-    #     for dicts in  count.values():
+    #     for dicts in  count_cond.values():
     #         print(dicts)
     #         tot_to_dialogue_act_next +=dicts.get('dialogue_act_next',0)
-    #     count['Other'][dialogue_act_next] = count_ind[dialogue_act_next]-tot_to_dialogue_act_next
+    #     count_cond['Other'][dialogue_act_next] = count_y[dialogue_act_next]-tot_to_dialogue_act_next
 
-    # Calculating entropy for count_ind
-    total_samples = sum(count_ind.values())
+    # Calculating entropy for count_y
+    total_samples = sum(count_y.values())
     entropy_ind = 0
-    for count_value in count_ind.values():
+    for count_value in count_y.values():
         probability = count_value / total_samples
         if probability > 0:  # Check for zero probability
             entropy_ind -= probability * math.log(probability, 2)
 
-    # Calculating conditioned entropy for count
+    # Calculating conditioned entropy for count_cond
     conditioned_entropy = 0
-    for inner_dict in count.values():
+    for inner_dict in count_cond.values():
         total_inner_samples = sum(inner_dict.values())
         inner_entropy = 0
         if total_inner_samples != 0:  # Check for zero total_inner_samples
@@ -120,7 +135,6 @@ if __name__ == '__main__':
                     inner_entropy -= probability * math.log(probability, 2)
         conditioned_entropy += inner_entropy * (total_inner_samples / total_samples)
 
-    print("Entropy on count_ind:", entropy_ind)
-    print("Conditioned entropy on count:", conditioned_entropy)
-    print("Count:", count)
-    print("Count_ind:", count_ind)
+    print("Entropy on count_y:", entropy_ind)
+    print("Conditioned entropy on count_cond:", conditioned_entropy)
+
