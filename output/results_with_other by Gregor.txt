@@ -1,0 +1,220 @@
+no_players_no_text_no_description_n_turns_1137_n_context_1_1708885419.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.25037   0.51274   0.33645       981
+counteroffer    0.18113   0.07419   0.10526       647
+      accept    0.24681   0.16667   0.19897       696
+     refusal    0.43096   0.06378   0.11111      1615
+
+    accuracy                        0.19548      3939
+   macro avg    0.22186   0.16347   0.15036      3939
+weighted avg    0.31241   0.19548   0.18180      3939
+
+F1-Score: 0.15035999179689002
+Accuracy: 0.19548108657019547
+Precision: 0.22185524985319233
+Recall: 0.16347488378892225
+
+
+renamed_players_no_text_no_description_examples_n_turns_1137_n_context_3_1708911985.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.22518   0.49949   0.31042       981
+counteroffer    0.22063   0.11901   0.15462       647
+      accept    0.27479   0.13937   0.18494       696
+     refusal    0.46718   0.07492   0.12914      1615
+
+    accuracy                        0.19929      3939
+   macro avg    0.23756   0.16656   0.15582      3939
+weighted avg    0.33242   0.19929   0.18833      3939
+
+F1-Score: 0.15582266702114192
+Accuracy: 0.19928915968519928
+Precision: 0.2375566397228961
+Recall: 0.16655831037612107
+
+
+no_players_no_text_no_description_examples_n_turns_1137_n_context_3_1708906660.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.23266   0.48216   0.31387       981
+counteroffer    0.19718   0.10819   0.13972       647
+      accept    0.29935   0.19828   0.23855       696
+     refusal    0.44156   0.08421   0.14145      1615
+
+    accuracy                        0.20741      3939
+   macro avg    0.23415   0.17457   0.16672      3939
+weighted avg    0.32427   0.20741   0.20126      3939
+
+F1-Score: 0.16671655974645644
+Accuracy: 0.20741304899720742
+Precision: 0.23415037458263882
+Recall: 0.1745678204628349
+
+
+renamed_players_no_text_no_description_examples_n_turns_1137_n_context_3_1708949192.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.22196   0.47197   0.30192       981
+counteroffer    0.23279   0.10974   0.14916       647
+      accept    0.32000   0.14943   0.20372       696
+     refusal    0.53431   0.06749   0.11985      1615
+
+    accuracy                        0.18964      3939
+   macro avg    0.26181   0.15972   0.15493      3939
+weighted avg    0.36913   0.18964   0.18483      3939
+
+F1-Score: 0.15493025568232519
+Accuracy: 0.18964204112718963
+Precision: 0.26181130143772774
+Recall: 0.15972443529666122
+
+
+n_turns_1137_n_context_1_1708868270_no_description.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.23783   0.56779   0.33524       981
+counteroffer    0.15102   0.05719   0.08296       647
+      accept    0.25185   0.19540   0.22006       696
+     refusal    0.41748   0.02663   0.05006      1615
+
+    accuracy                        0.19624      3939
+   macro avg    0.21164   0.16940   0.13766      3939
+weighted avg    0.29970   0.19624   0.15653      3939
+
+F1-Score: 0.1376643630083013
+Accuracy: 0.19624270119319626
+Precision: 0.2116357803838779
+Recall: 0.1694005348613441
+
+
+no_players_no_text_no_description_examples_n_turns_1137_n_context_1_1708889600.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.24379   0.45056   0.31639       981
+counteroffer    0.27155   0.09737   0.14334       647
+      accept    0.24742   0.17241   0.20322       696
+     refusal    0.44196   0.06130   0.10767      1615
+
+    accuracy                        0.18380      3939
+   macro avg    0.24095   0.15633   0.15412      3939
+weighted avg    0.33025   0.18380   0.18239      3939
+
+F1-Score: 0.15412436033585983
+Accuracy: 0.1838029956841838
+Precision: 0.24094670109759492
+Recall: 0.15632944870090468
+
+
+renamed_players_no_text_no_description_examples_n_turns_1137_n_context_1_1708945264.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.21581   0.39246   0.27848       981
+counteroffer    0.19913   0.07110   0.10478       647
+      accept    0.23913   0.09483   0.13580       696
+     refusal    0.39873   0.03901   0.07107      1615
+
+    accuracy                        0.14217      3939
+   macro avg    0.21056   0.11948   0.11803      3939
+weighted avg    0.29219   0.14217   0.13970      3939
+
+F1-Score: 0.11802661414611688
+Accuracy: 0.14216806296014217
+Precision: 0.21056119720397798
+Recall: 0.11947818469626954
+
+
+n_turns_1137_n_context_1_1708878303.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.23678   0.47910   0.31693       981
+counteroffer    0.17342   0.16538   0.16930       647
+      accept    0.22222   0.09195   0.13008       696
+     refusal    0.40764   0.03963   0.07223      1615
+
+    accuracy                        0.17898      3939
+   macro avg    0.20801   0.15521   0.13771      3939
+weighted avg    0.29385   0.17898   0.15934      3939
+
+F1-Score: 0.13770900259610683
+Accuracy: 0.178979436405179
+Precision: 0.20801222521191107
+Recall: 0.15521282658321436
+
+
+renamed_players_no_text_no_description_examples_n_turns_1137_n_context_1_1708945276.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.22296   0.37615   0.27997       981
+counteroffer    0.22881   0.08346   0.12231       647
+      accept    0.25806   0.09195   0.13559       696
+     refusal    0.43165   0.03715   0.06842      1615
+
+    accuracy                        0.13887      3939
+   macro avg    0.22830   0.11774   0.12126      3939
+weighted avg    0.31569   0.13887   0.14182      3939
+
+F1-Score: 0.12125764568247577
+Accuracy: 0.13886773292713886
+Precision: 0.2282986953571175
+Recall: 0.11774292953737678
+
+
+n_turns_1137_n_context_1_1708878011.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.22987   0.43935   0.30182       981
+counteroffer    0.17009   0.08964   0.11741       647
+      accept    0.26225   0.13075   0.17450       696
+     refusal    0.41063   0.05263   0.09330      1615
+
+    accuracy                        0.16882      3939
+   macro avg    0.21457   0.14247   0.13741      3939
+weighted avg    0.29988   0.16882   0.16354      3939
+
+F1-Score: 0.13740606818802414
+Accuracy: 0.16882457476516882
+Precision: 0.21456610022932848
+Recall: 0.1424741646013854
+
+
+n_turns_1137_n_context_1_1708869815_complete_.tsv
+
+              precision    recall  f1-score   support
+
+       other    0.00000   0.00000   0.00000         0
+       offer    0.22386   0.37105   0.27925       981
+counteroffer    0.17471   0.11747   0.14048       647
+      accept    0.24113   0.14655   0.18231       696
+     refusal    0.45382   0.06997   0.12124      1615
+
+    accuracy                        0.16629      3939
+   macro avg    0.21870   0.14101   0.14466      3939
+weighted avg    0.31312   0.16629   0.17454      3939
+
+F1-Score: 0.14465580693990504
+Accuracy: 0.1662858593551663
+Precision: 0.21870497902355474
+Recall: 0.14100718750569846
+
+
