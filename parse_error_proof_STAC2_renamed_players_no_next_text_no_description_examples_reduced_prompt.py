@@ -136,6 +136,7 @@ def parse_response(response):
         if response.lower() in ['offer', 'counteroffer', 'accept', 'refusal','other']:
             return response.lower(), False
         else:
+            print("PARSE_ERROR PARSE_ERROR PARSE_ERROR")
             return 'PARSE_ERROR', True
 
 
