@@ -191,15 +191,17 @@ if __name__ == '__main__':
     for idx, sample in enumerate(tqdm(x_data)):
         if len(sample) > 0:
             parse_error=True
-            while  parse_error:
+            parse_error_num=0
+            while  parse_error and parse_error_num<5:
                 prompt = build_prompt(sample)
                 if CONFIG['PRINT_PROMPT_BEFORE_SENDING']:
                     print(prompt)
                     continue
                 chat_gpt_output = call_chatgpt(prompt)
-                y_pred_raw.append(chat_gpt_output)
                 y_pred,parse_error = parse_response(chat_gpt_output)
 
+
+            y_pred_raw.append(chat_gpt_output)
             y_pred_all.append(y_pred)
             y_true_all.append(y_data[idx][-1].lower())
             y_true_raw.append('; '.join(y_data[idx]))
